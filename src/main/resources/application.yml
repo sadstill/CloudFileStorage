@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/cloudstorage
+    username: root
+    password: 2304
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true

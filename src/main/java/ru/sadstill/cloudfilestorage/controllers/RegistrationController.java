@@ -8,7 +8,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-import ru.sadstill.cloudfilestorage.DTOs.UserDTO;
+import ru.sadstill.cloudfilestorage.dto.UserDTO;
 import ru.sadstill.cloudfilestorage.services.security.UserDetailsServiceImpl;
 
 @Controller
@@ -27,9 +27,7 @@ public class RegistrationController {
                                BindingResult bindingResult,
                                Model model) {
 
-        try {
-//            User
-        }
+
 
     }
 
